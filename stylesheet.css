@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  padding: 0 15px;
+}
+
+.logo{
+  font-size: 30px;
+  font-family:"Impact";
+  color: white;
+}
+
+.header-left{
+  float:left;
+  line-height: 65px;
+  width: 200px;
+}
+
+.login{
+  font-size: 20px;
+  font-family:"Impact";
+  display:block;
+  color: white;
+  text-align:center;
+}
+
+.header-right{
+  line-height: 65px;
+  width: 100px;
+  float:right;
+  background-color:rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover{
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.top-wrapper{
+  padding-top: 300px;
+  height: 800px;
+  background-image: url("./images/Apex-season7.jpg");
+  background-color:rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1{
+  font-size: 70px;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.top-wrapper h2{
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+.top-wrapper p{
+  font-size: 25px;
+}
+
+.btn{
+  font-size: 30px;
+  padding: 8px 20px;
+  display: inline-block;
+  opacity: 0.8;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn:hover{
+  opacity: 1.0;
+}
+
+.signup{
+  background-color: #239b76;
+}
+
+.Origin{
+  margin-right: 20px;
+  background-color: #F05920;
+}
+
+.fab{
+  margin-right: 10px;
+}
+
+.Steam{
+  background-color: #0C4278;
+}
+
+.introduction-wrapper{
+  padding-top: 300px;
+  padding-bottom: 250px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.introduction-wrapper h3{
+  font-size: 50px;
+}
+
+.introduction-wrapper h4{
+  margin-top: 150px;
+  margin-bottom: 120px;
+  font-size: 40px;
+}
+
+.Recommended-list{
+  margin-bottom: 200px;
+}
+
+.introduction-wrapper p{
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+footer{
+  height: 65px;
+  padding: 0 15px;
+}
+
+.black{
+  color: black;
+  line-height: 65px;
+}
